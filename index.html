@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora</title>
+</head>
+<body>
+  <div>
+    <input class="display" type="text">
+    <button class="cinza-color" onclick="resetDisplay()">AC</button>
+    <button class="cinza-color" onclick="inverterSinal()">+/-</button>
+    <button class="blue-color" onclick="numberClick('/')">/</button>
+    <button class="blue-color" onclick="numberClick('*')">*</button>
+    <button class="black-color" onclick="numberClick('7')">7</button>
+    <button class="black-color" onclick="numberClick('8')">8</button>
+    <button class="black-color" onclick="numberClick('9')">9</button>
+    <button class="blue-color" onclick="numberClick('-')">-</button>
+    <button class="black-color" onclick="numberClick('4')">4</button>
+    <button class="black-color" onclick="numberClick('5')">5</button>
+    <button class="black-color" onclick="numberClick('6')">6</button>
+    <button class="blue-color" onclick="numberClick('+')">+</button>
+    <button class="black-color" onclick="numberClick('1')">1</button>
+    <button class="black-color" onclick="numberClick('2')">2</button>
+    <button class="black-color" onclick="numberClick('3')">3</button>
+    <button class="black-color equal" onclick="calcular()">=</button>
+    <button class="black-color zero" onclick="numberClick('0')">0</button>
+    <button class="black-color" onclick="numberClick('.')">.</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
