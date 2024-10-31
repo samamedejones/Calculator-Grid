@@ -15,7 +15,7 @@ function inverterSinal() {
   document.querySelector('.display').value = display * -1
 }
 
-function calcular() {
+function calculate() {
   const display = document.querySelector('.display').value
   document.querySelector('.display').value = eval(display)
 }
@@ -23,6 +23,6 @@ function calcular() {
 document.addEventListener('keydown', function (event) {
   console.log(event.key)
   if(event.key === 'Enter'){
-    calcular()
+    calculate()
   } 
 })
