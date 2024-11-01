@@ -9,7 +9,7 @@ Calculator with display-grid and dark theme
 In this project I learned better how to manipulate the display grid to make a minimalist but very beautiful calculator
 
 
-https://samamedejones.github.io/calculadora-de-imc/
+
 
 
 
